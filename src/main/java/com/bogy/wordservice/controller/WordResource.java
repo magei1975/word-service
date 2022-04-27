@@ -10,8 +10,6 @@ import java.util.List;
 @RestController
 public class WordResource {
 
-    // Aggregate root
-    // tag::get-aggregate-root[]
     @GetMapping("/words")
     List<String> getWords() {
         return Arrays.asList("Hallo", "Bogy");
