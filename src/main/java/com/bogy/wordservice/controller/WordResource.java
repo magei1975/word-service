@@ -14,7 +14,7 @@ import java.util.Random;
 public class WordResource {
 
     @GetMapping("/content")
-    @CrossOrigin(origins = "http://ip172-18-0-48-c9lniqs33d5g008fq8f0-8080.direct.labs.play-with-docker.com/")
+    @CrossOrigin(origins = "https://magei1975.github.io/")
     Content getContent() {
         Content content = new Content();
         content.setWords(Arrays.asList("Hallo", "Bogy"));
