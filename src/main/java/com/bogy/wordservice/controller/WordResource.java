@@ -17,7 +17,7 @@ public class WordResource {
     @CrossOrigin(origins = "https://magei1975.github.io/")
     Content getContent() {
         Content content = new Content();
-        content.setWords(Arrays.asList("Hallo", "Bogy"));
+        // content.setWords(Arrays.asList("Hallo", "Bogy"));
         content.setRandom(new Random().nextInt(6) + 1);
         return content;
 //        return Arrays.asList("Hallo", "Bogy");
