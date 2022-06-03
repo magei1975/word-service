@@ -18,7 +18,7 @@ public class WordResource {
     Content getContent() {
         Content content = new Content();
         content.setWords(Arrays.asList("Hallo", "Bogy"));
-        content.setRandom(new Random().nextInt(3) + 1);
+        content.setRandom(new Random().nextInt(6) + 1);
         return content;
 //        return Arrays.asList("Hallo", "Bogy");
     }
